@@ -1,0 +1,49 @@
+body {
+    background: #e7e6e1;
+    font-family: 'Padauk', sans-serif;
+
+}
+
+h1 {
+    color: #111d5e;
+    font: 32px Garamond, Helvetica, serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+table {
+    width: 50%;
+    border: solid 2px rgb(32, 168, 28);
+    background-color: yellow;
+    color: salmon;
+}
+
+thead {
+    text-align: left;
+}
+
+label {
+    display: block;
+    
+    
+}
+
+#submit-btn {
+    display: block;
+    color: #0f0a0c;
+}
+
+#menu {
+    color: #111d5e;
+
+}
+
+.syr {
+    padding: 10px;
+    width: 50%;
+    border: 2px solid black;
+}
+
+hr {
+    border-top-style: dotted;
+    border-color: coral;
+}

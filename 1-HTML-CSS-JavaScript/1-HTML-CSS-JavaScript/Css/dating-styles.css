@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(222, 225, 230);
+    font-family: Verdana, Arial, Sans-serif;
+}
+
+p {
+    margin: 0px;
+}
+
+legend {
+    background-color: #c1a1d3;
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+}
+
+fieldset {
+    background: lavender;
+    border: 10px solid darkblue;
+    border-radius:  20px;
+    margin-bottom: 10px;
+    width: 720px;
+}
+
+div {
+    margin: 10px;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 200px;
+}
+
+.submit {
+    background-color: green;
+    color: white;
+}
+
+input [type="radio"]+label, input [type="checkbox"]

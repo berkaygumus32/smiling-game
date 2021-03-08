@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Onmouseover & Onmouseout Demo</title>
+    <style>
+        div {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div id="berkay" onmouseover="changeBackground('red');" onmouseout="changeBackground('yellow');">
+        Move your mouse over this text, then move it out
+
+        <h1 onmousedown="changeBackground();" onmouseup="revertBackground()">Click Me</h1>
+    </div>
+
+    <script>
+        function changeBackground(newColor) {
+            document.getElementsById('berkay')[0].style.background = newColor;
+        }
+
+        const h1 = document.getElementByTagName('h1')[0];
+
+        function changeBackground() {
+            h1.style.background = 'orange';
+        }
+        function revertBackground() {
+            h1.style.background = 'green';
+        }
+    </script>
+</body>
+</html>

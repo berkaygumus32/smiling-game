@@ -1,0 +1,23 @@
+
+#submit-btn {
+    background: green; 
+    color: white;
+}
+
+body {
+    background-color: rgb(198, 220, 221);
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.survey-form {
+    width: 80%;
+    margin: auto; 
+}
+
+.header {
+    color: purple;
+}
